@@ -23,7 +23,7 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://meiadvanture.github.io/webstarter"
+url: "https://meiadvanture.github.io"
 
 github:
   username: meiadvanture # change to your github username
@@ -96,7 +96,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-6/296295052_2308351452649585_7913228583331849969_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=vTCLo7Ttr_gQ7kNvgFYlv02&_nc_ht=scontent-sjc3-1.xx&oh=00_AYD8iH5IfmaW_6RJ3-5Zi9lZvbkiFd6feMtwfSoDzDB4ZA&oe=6649DDE1
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
