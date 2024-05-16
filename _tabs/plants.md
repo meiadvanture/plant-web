@@ -1,6 +1,6 @@
 ---
-layout: section
+layout: tabs
 icon: fas fa-seedling
-category: plants
+category: "plants"
 order: 2
 ---
