@@ -27,12 +27,12 @@ panel:
   trending_tags: Priljubljene Oznake #Trending Tags
   toc: Vsebina #Contents
 
-copyright:
+# copyright:
   # Shown at the bottom of the post
-  license:
-    template: Ta objava je licencirana pod :LICENCE_NAME s strani avtorja. #This post is licensed under :LICENSE_NAME by the author.
-    name: CC BY 4.0
-    link: https://creativecommons.org/licenses/by/4.0/
+#  license:
+#    template: Ta objava je licencirana pod :LICENCE_NAME s strani avtorja. #This post is licensed under :LICENSE_NAME by the author.
+#    name: CC BY 4.0
+#    link: https://creativecommons.org/licenses/by/4.0/
 
   # Displayed in the footer
   brief: Nekatere pravice pridržane. #Some rights reserved.
@@ -52,14 +52,14 @@ notification:
 # ----- Posts related labels -----
 
 post:
-  written_by: Od #By
+#  written_by: Od #By
   posted: Objavljeno #Posted
   updated: Posodobljeno #Updated
   words: besede #words
   pageview_measure: ogledi #views
-  read_time:
-    unit: min
-    prompt: beri #read
+#  read_time:
+#    unit: min
+#    prompt: beri #read
   relate_posts: Nadaljnje branje #Further Reading
   share: Deli #Share
   button:
