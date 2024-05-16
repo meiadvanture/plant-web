@@ -99,14 +99,6 @@ tail_includes:
   </header>
 
   <div class="content">
-
-
-      {% if page.image-array %}
-          {% for item in page.images-array %}
-            <img class="img-responsive" src="{{ site.baseurl }}/image/{{ item.image }}" alt="{{ item.alt }}">
-          {% endfor %}
-          {% endif %}
-
     {{ content }}
   </div>
 
