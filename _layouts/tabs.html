@@ -5,14 +5,13 @@ refactor: true
 
 {% include lang.html %}
 
-<!--
 {% assign pinned = site.posts | where: 'pin', 'true' %}
 {% assign default = site.posts | where_exp: 'item', 'item.pin != true and item.hidden != true' %}
 
 {% assign posts = '' | split: '' %}
--->
 <!-- Get pinned posts -->
-<!--
+
+
 {% assign offset = paginator.page | minus: 1 | times: paginator.per_page %}
 {% assign pinned_num = pinned.size | minus: offset %}
 
@@ -23,10 +22,11 @@ refactor: true
 {% else %}
   {% assign pinned_num = 0 %}
 {% endif %}
--->
+
+
 <!-- Get default posts -->
 
-<!--
+
 {% assign default_beg = offset | minus: pinned.size %}
 
 {% if default_beg < 0 %}
@@ -41,12 +41,10 @@ refactor: true
     {% assign posts = posts | push: default[i] %}
   {% endfor %}
 {% endif %}
--->
+
 
 
 <div id="post-list" class="flex-grow-1 px-xl-1">
-
-
 
   {% for post in site.posts %}
   {% if post.categories contains page.category %}

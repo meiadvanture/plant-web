@@ -1,6 +1,6 @@
 ---
 layout: tabs
 icon: fas fa-mountain-sun
-category: backpacking
+category: trips
 order: 1
 ---
