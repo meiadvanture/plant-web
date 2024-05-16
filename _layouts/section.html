@@ -39,10 +39,6 @@ refactor: true
     {% assign posts = posts | push: default[i] %}
   {% endfor %}
 {% endif %}
-<p> category is {{ page.category }} </p>
-<p> posts has {{ posts.size }} </p>
-<p> paginator posts is {{paginator.posts | size}} </p>
-<p> default_beg is {{default_beg}} </p>
 
 <div id="post-list" class="flex-grow-1 px-xl-1">
   {% for post in posts %}
