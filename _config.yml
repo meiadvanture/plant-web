@@ -16,7 +16,7 @@ timezone: America/Los_Angeles
 
 title: Meishan Fan # the main title
 
-tagline: THis is an introduction.
+tagline: This is an introduction.
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
