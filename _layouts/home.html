@@ -41,6 +41,11 @@ refactor: true
 {% endif %}
 
 <div id="post-list" class="flex-grow-1 px-xl-1">
+    <p>
+        <a href="https://www.example.com">
+        Click <span style="font-weight: bold; font-size: larger; text-decoration: underline;">here</span> to check out which plants are in stock and what’s coming soon.
+        </a>
+    </p>
   {% for post in posts %}
     <article class="card-wrapper card">
       <a href="{{ post.url | relative_url }}" class="post-preview row g-0 flex-md-row-reverse">
