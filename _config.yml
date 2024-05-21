@@ -97,7 +97,7 @@ theme_mode: light # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-6/296295052_2308351452649585_7913228583331849969_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=vTCLo7Ttr_gQ7kNvgFYlv02&_nc_ht=scontent-sjc3-1.xx&oh=00_AYD8iH5IfmaW_6RJ3-5Zi9lZvbkiFd6feMtwfSoDzDB4ZA&oe=6649DDE1
+avatar: /assets/img/profilepic.jpb
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
