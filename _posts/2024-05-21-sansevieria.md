@@ -13,13 +13,6 @@ pin: false
 #   lqip:
 # photos: /images # not in use
 
-# images-array:
-#  # - path: /images/
-#  #   alt: 
+# photos: /images/
 
-#  - path: /images/
-#    alt: 
-
-#  - path: /images/
-#    alt: 
 ---

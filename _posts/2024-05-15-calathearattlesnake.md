@@ -11,15 +11,6 @@ image: # thumbnail
   path: /images/calathearattlesnake/image-1.jpg
   alt:
   lqip:
-photos: /images # not in use
 
-images-array:
- # - path: /images/calathearattlesnake/image-2.jpg
- #   alt: 
-
- - path: /images/calathearattlesnake/image-3.jpg
-   alt: 
-
- - path: /images/calathearattlesnake/image-4.jpg
-   alt: 
+photos: /images/calathearattlesnake
 ---

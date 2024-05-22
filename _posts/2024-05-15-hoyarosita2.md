@@ -12,10 +12,5 @@ image: # thumbnail
   alt:
   lqip:
 
-images-array:
- - path: /images/hoyarosita2/image-2.jpg
-   alt: 
-
- # - path: /images/hoyarosita1/image-3.jpg
- #   alt: 
+photos: /images/hoyarosita2
 ---
