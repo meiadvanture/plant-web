@@ -12,13 +12,14 @@ image: # thumbnail
   alt:
   lqip:
 
-images-array:
- - path: /images/monsteraminima/image-2.jpg
-   alt: 
+# images-array:
+#  - path: /images/monsteraminima/image-2.jpg
+#    alt: 
 
- - path: /images/monsteraminima/image-1.jpg
-   alt: 
+#  - path: /images/monsteraminima/image-1.jpg
+#    alt: 
 
- - path: /images/monsteraminima/image-4.jpg
-   alt: 
+#  - path: /images/monsteraminima/image-4.jpg
+#    alt: 
+photos: /images/monsteraminima
 ---

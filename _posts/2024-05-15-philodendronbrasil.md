@@ -12,11 +12,12 @@ image: # thumbnail
   alt:
   lqip:
 
-images-array:
- - path: /images/philodendronbrasil/image-1.jpg
-   alt: 
+# images-array:
+#  - path: /images/philodendronbrasil/image-1.jpg
+#    alt: 
 
- - path: /images/philodendronbrasil/image-2.jpg
-   alt: 
+#  - path: /images/philodendronbrasil/image-2.jpg
+#    alt: 
 
+photos: /images/philodendronbrasil
 ---
