@@ -1,5 +1,5 @@
 ---
-layout: instock
+layout: home
 icon: fas fa-seedling
 category: "plants"
 tag: "instock"
