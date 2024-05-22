@@ -1,9 +1,9 @@
 ---
 layout: postplants
-title: "Monstera Minima"
+title: "Hoya Rosita | #1"
 description: $15
 date: 2024-05-15 13:00:00 -0700
-categories: [monstera, minima]
-tags: [instock, 4" pot]
+categories: [hoya, rosita]
+tags: [sold, 4" pot]
 pin: false
 ---

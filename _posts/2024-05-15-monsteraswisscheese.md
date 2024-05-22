@@ -1,9 +1,9 @@
 ---
 layout: postplants
 title: "Monstera Swiss Cheese"
-description: 
+description: $15
 date: 2024-05-15 13:00:00 -0700
 categories: [monstera, swiss cheese]
-tags: [instock]
+tags: [instock, 4" pot]
 pin: false
 ---
