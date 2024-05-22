@@ -1,6 +1,6 @@
 ---
-layout: tabs
+layout: instock
 icon: fas fa-seedling
-category: "plants"
 order: 2
 ---
+ 

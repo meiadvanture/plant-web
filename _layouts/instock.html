@@ -47,6 +47,7 @@ refactor: true
         !
     </p>
   {% for post in posts %}
+  {% if post.tags contains "instock" %}
     <article class="card-wrapper card">
       <a href="{{ post.url | relative_url }}" class="post-preview row g-0 flex-md-row-reverse">
         {% assign card_body_col = '12' %}
@@ -112,6 +113,7 @@ refactor: true
         </div>
       </a>
     </article>
+  {% endif %}
   {% endfor %}
 </div>
 <!-- #post-list -->
