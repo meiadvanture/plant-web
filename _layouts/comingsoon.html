@@ -46,7 +46,7 @@ refactor: true
         <a href="https://docs.google.com/spreadsheets/d/1va-t_wQNpWvp0KHbNpZGRkAtbkQp6KLZQJR9h9bgXNQ/edit?usp=sharing" style='color:##ff8f33;font-size:19px;text-decoration: underline;'>here</a>
         !
     </p>
-  {% for post in posts %}
+  {% for post in site.posts %}
   {% if post.tags contains "comingsoon" %}
     <article class="card-wrapper card">
       <a href="{{ post.url | relative_url }}" class="post-preview row g-0 flex-md-row-reverse">
