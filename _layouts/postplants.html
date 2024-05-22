@@ -34,7 +34,7 @@ tail_includes:
       {% endif %}
 
 
-
+      <!-- thumbnail -->
       {% if page.image %}
         {% capture src %}src="{{ page.image.path | default: page.image }}"{% endcapture %}
         {% capture class %}class="preview-img{% if page.image.no_bg %}{{ ' no-bg' }}{% endif %}"{% endcapture %}
@@ -53,9 +53,9 @@ tail_includes:
         </div>
       {% endif %}
 
+
       <div class="d-flex justify-content-between">
         <!-- author(s) -->
-
         <div>
           <!-- pageviews -->
 <!--          {% if site.pageviews.provider and site.analytics[site.pageviews.provider].id %}
@@ -72,6 +72,41 @@ tail_includes:
       </div>
     </div>
   
+
+
+    <!-- images -->
+    {% if page.images-array %}
+    {% for img in page.images-array %}
+      {% capture src %}src="{{ img.path | default: img }}"{% endcapture %}
+      {% capture class %}class="preview-img{% if imgno_bg %}{{ ' no-bg' }}{% endif %}"{% endcapture %}
+      {% capture alt %}alt="{{ img.alt | xml_escape | default: "Preview Image" }}"{% endcapture %}
+
+      {% if imglqip %}
+        {%- capture lqip -%}lqip="{{ img.lqip }}"{%- endcapture -%}
+      {% endif %}
+
+      <div>
+
+        <img {{ src }} {{ class }} {{ alt }} w="1200" h="630" {{ lqip }}>
+        {%- if img.alt -%}
+          <figcaption class="text-center pt-2 pb-2">{{ img.alt }}</figcaption>
+        {%- endif -%}
+      </div>
+    {% endfor %}
+    {% endif %}
+
+
+      <!-- images using plug in - but the doesn't work-->
+<!--       <div class="mt-3 mb-3">
+      {% if page.photos %}
+        {% loop_directory directory: {{ page.photos}} iterator:image filter:*.jpg sort:descending %}
+          <img src="{{ image }}"/ w="1200" h= "300">
+          {{ image }}
+        {% endloop_directory %}
+      {% endif %}
+      </div>
+ -->
+
   <!-- Green Box Content -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <div class="green-box">

@@ -19,6 +19,8 @@ layout: page
         <span class="dash flex-grow-1"></span>
 <!--        % include datetime.html date=post.date class='text-muted small text-nowrap' lang=lang %    -->
            {{ post.description }}
+           |
+           {{ post.tags[0] }}
       </li>
     {% endfor %}
   </ul>
