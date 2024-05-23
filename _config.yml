@@ -231,3 +231,4 @@ jekyll-archives:
 
 plugins:
       - jekyll-include-cache
+      - jemoji
