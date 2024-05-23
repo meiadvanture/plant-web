@@ -4,8 +4,8 @@ title: "Calathea Rattlesnake"
 description: $11
 date: 2024-05-15 13:00:00 -0700
 categories: [calathea, rattlesnake]
-tags: [in stock, 4" pot]
-pin: true
+tags: [sold, 4" pot]
+pin: false
 
 image: # thumbnail
   path: /images/calathearattlesnake/image-1.jpg
