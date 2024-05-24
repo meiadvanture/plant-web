@@ -2,19 +2,12 @@
 
 <!-- looping images in a folder -->
 
-<!-- {% assign image_files = site.static_files %}
-{% for image in image_files %}
-  {% if image.path contains "/images/monsteraminima/" and image.extname == ".jpg" %}
-    <img src="{{ site.baseurl }}{{ image.path }}" alt="Image">
-  {% endif %}
-{% endfor %} -->
-
 <ul>
   {% assign image_dir = include.photos %}
   {% assign image_files = site.static_files %}
   {% for image in image_files %}
     {% if image.path contains image_dir and image.extname == ".jpg" %}
-      <img src="{{ site.baseurl }}{{ image.path }}" alt="Image">
+      <img src="{{ site.baseurl }}{{ image.path }}" alt="Image" class="thumbnail">
     {% endif %}
   {% endfor %}
 </ul>

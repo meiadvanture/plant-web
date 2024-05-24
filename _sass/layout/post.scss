@@ -383,3 +383,11 @@ header {
   color: #6cc644;
   }
 
+
+/* resizing photos */
+.thumbnail {
+  max-width: 700px; /* Maximum width for thumbnail */
+  max-height: 1000px; /* Maximum height for thumbnail */
+  width: auto;
+  height: auto;
+}
