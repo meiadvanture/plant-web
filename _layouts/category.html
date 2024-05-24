@@ -12,19 +12,11 @@ layout: page
     <span class="lead text-muted ps-2">{{ page.posts | size }}</span>
   </h1>
 
-
-<div id="page-category">
-  <h1 class="ps-lg-2">
-    <i class="far fa-folder-open fa-fw text-muted"></i>
-    {{ page.title }}
-    <span class="lead text-muted ps-2">{{ page.posts | size }}</span>
-  </h1>
-
   {% assign tag_order = "in stock,coming soon" | split: ',' %}
 
-  {% assign sorted_posts = page.posts | sort: 'title' %}  {# Initial sort to ensure a stable order #}
+  {% assign sorted_posts = page.posts | sort: 'title' %} 
 
-  {% assign sorted_posts = sorted_posts | sort: "tags" %} {# Sorting by tags alphabetically first #}
+  {% assign sorted_posts = sorted_posts | sort: "tags" %} 
 
   {% assign sorted_posts_by_tag = "" | split: "" %}
 
