@@ -94,6 +94,9 @@ tail_includes:
     {% endfor %}
     {% endif %}
  -->
+   <div class="content">
+    {{ content }}
+   </div>
        {% if page.photos %}
         {% include image_gallery.html photos=page.photos %}
       {% endif %}
@@ -121,10 +124,6 @@ tail_includes:
 
 
   </header>
-
-  <div class="content">
-    {{ content }}
-  </div>
 
   <div class="post-tail-wrapper text-muted">
     <!-- categories -->
