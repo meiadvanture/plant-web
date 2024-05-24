@@ -369,7 +369,7 @@ header {
   }
 }
 
-/* Add the green-box style here */
+/* pick up green box */
 .green-box {
       margin-left: 30px;
       margin-right: 30px;
@@ -382,3 +382,10 @@ header {
 .green-dolly-icon {
   color: #6cc644;
   }
+
+/* thumbnail format */
+.thumbnail {
+  width: 150px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Ensure the image covers the box */
+}

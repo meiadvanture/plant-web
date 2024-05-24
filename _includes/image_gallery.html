@@ -14,8 +14,9 @@
   {% assign image_files = site.static_files %}
   {% for image in image_files %}
     {% if image.path contains image_dir and image.extname == ".jpg" %}
-      <img src="{{ site.baseurl }}{{ image.path }}" alt="Image">
+      <img class="thumbnail" src="{{ site.baseurl }}{{ image.path }}" alt="Image">
     {% endif %}
   {% endfor %}
 </ul>
+
 
