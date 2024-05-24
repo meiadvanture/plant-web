@@ -383,9 +383,3 @@ header {
   color: #6cc644;
   }
 
-/* thumbnail format */
-.thumbnail {
-  width: 150px; /* Adjust the width as needed */
-  height: auto; /* Maintain aspect ratio */
-  object-fit: cover; /* Ensure the image covers the box */
-}
