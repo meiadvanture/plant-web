@@ -8,5 +8,5 @@ group :test do
   gem "html-proofer", "~> 5.0"
   gem "jekyll-include-cache"
   gem 'jemoji'
-  gem 'jekyll-thumbnail-img'
+#  gem 'jekyll-thumbnail-img'
 end

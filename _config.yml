@@ -232,4 +232,3 @@ jekyll-archives:
 plugins:
       - jekyll-include-cache
       - jemoji
-      - jekyll-thumbnail-img
