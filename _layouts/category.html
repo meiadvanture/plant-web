@@ -12,15 +12,38 @@ layout: page
     <span class="lead text-muted ps-2">{{ page.posts | size }}</span>
   </h1>
 
+
+<div id="page-category">
+  <h1 class="ps-lg-2">
+    <i class="far fa-folder-open fa-fw text-muted"></i>
+    {{ page.title }}
+    <span class="lead text-muted ps-2">{{ page.posts | size }}</span>
+  </h1>
+
+  {% assign tag_order = "in stock,coming soon" | split: ',' %}
+
+  {% assign sorted_posts = page.posts | sort: 'title' %}  {# Initial sort to ensure a stable order #}
+
+  {% assign sorted_posts = sorted_posts | sort: "tags" %} {# Sorting by tags alphabetically first #}
+
+  {% assign sorted_posts_by_tag = "" | split: "" %}
+
+  {% for tag in tag_order %}
+    {% for post in sorted_posts %}
+      {% if post.tags contains tag %}
+        {% assign sorted_posts_by_tag = sorted_posts_by_tag | push: post %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+
   <ul class="content ps-0">
-    {% for post in page.posts %}
+    {% for post in sorted_posts_by_tag %}
       <li class="d-flex justify-content-between px-md-3">
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
         <span class="dash flex-grow-1"></span>
-<!--        % include datetime.html date=post.date class='text-muted small text-nowrap' lang=lang %    -->
-           {{ post.description }}
-           |
-           {{ post.tags[0] }}
+        {{ post.description }}
+        |
+        {{ post.tags[0] }}
       </li>
     {% endfor %}
   </ul>
