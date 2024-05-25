@@ -32,7 +32,9 @@ tail_includes:
           {% include datetime.html date=page.last_modified_at tooltip=true lang=lang %}
         </span>
       {% endif %}
-
+       <div class="content">
+        <p style='size: 28px; color: #000000;'><strong>{{ page.tags[0]}}, {{ page.tags[1]}}</strong></p>
+       </div>
 
       <!-- thumbnail -->
       {% if page.image %}
@@ -94,10 +96,6 @@ tail_includes:
     {% endfor %}
     {% endif %}
  -->
-   <div class="content">
-    <p style='size: 28px'><strong>{{ page.tags[0]}}</strong></p>
-    <p style='size: 28px'><strong>{{ page.tags[1]}}</strong></p>
-  </div>
 
    <div class="content">
     {{ content }}
