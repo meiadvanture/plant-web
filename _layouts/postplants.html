@@ -33,7 +33,16 @@ tail_includes:
         </span>
       {% endif %}
        <div class="content">
-        <p style='size: 28px; color: #000000;'><strong>{{ page.description }{{ page.tags[0] }}, {{ page.tags[1] }}</strong></p>
+        <p style='size: 28px; color: #000000;'>
+          <strong>
+            price: {{ page.description }}
+          </strong>
+        </p>
+        <p style='size: 28px; color: #000000;'>
+          <strong> 
+            status:{{ page.tags[0] }}, {{ page.tags[1] }}
+          </strong>
+        </p>
        </div>
 
       <!-- thumbnail -->
