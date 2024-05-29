@@ -12,7 +12,7 @@ layout: page
     <span class="lead text-muted ps-2">{{ page.posts | size }}</span>
   </h1>
 
-  {% assign tag_order = "in stock,coming soon" | split: ',' %}
+  {% assign tag_order = "in stock,coming soon,sold" | split: ',' %}
 
   {% assign sorted_posts = page.posts | sort: 'title' %} 
 
