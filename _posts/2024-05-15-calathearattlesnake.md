@@ -7,10 +7,10 @@ categories: [calathea, rattlesnake]
 tags: [sold, 4" pot]
 pin: false
 
-image: # thumbnail
-  path: /images/calathearattlesnake/image-1.jpg
-  alt:
-  lqip:
+# image: # thumbnail
+#   path: /images/calathearattlesnake/image-1.jpg
+#   alt:
+#   lqip:
 
-photos: /images/calathearattlesnake
+# photos: /images/calathearattlesnake
 ---

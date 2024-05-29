@@ -7,19 +7,19 @@ categories: [monstera, minima]
 tags: [sold, 4" pot]
 pin: false
 
-image: # thumbnail
-  path: /images/monsteraminima/image-3.jpg
-  alt:
-  lqip:
+# image: # thumbnail
+#   path: /images/monsteraminima/image-3.jpg
+#   alt:
+#   lqip:
 
-# images-array:
-#  - path: /images/monsteraminima/image-2.jpg
-#    alt: 
+# # images-array:
+# #  - path: /images/monsteraminima/image-2.jpg
+# #    alt: 
 
-#  - path: /images/monsteraminima/image-1.jpg
-#    alt: 
+# #  - path: /images/monsteraminima/image-1.jpg
+# #    alt: 
 
-#  - path: /images/monsteraminima/image-4.jpg
-#    alt: 
-photos: /images/monsteraminima
+# #  - path: /images/monsteraminima/image-4.jpg
+# #    alt: 
+# photos: /images/monsteraminima
 ---
