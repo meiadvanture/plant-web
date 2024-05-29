@@ -7,11 +7,11 @@ categories: [hoya, rosita]
 tags: [sold, 4" pot]
 pin: false
 
-# image: # thumbnail
-#   path: /images/hoyarosita1/image-1.jpg
-#   alt:
-#   lqip:
+image: # thumbnail
+  path: /images/hoyarosita1/image-1.jpg
+  alt:
+  lqip:
 
-# photos: /images/hoyarosita1
+photos: /images/hoyarosita1
 ---
 
