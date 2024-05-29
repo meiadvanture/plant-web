@@ -9,7 +9,9 @@ refactor: true
 {% assign default = site.posts | where_exp: 'item', 'item.pin != true and item.hidden != true' %}
 
 {% assign posts = '' | split: '' %}
-
+<h1 class="dynamic-title">
+  {{ title }}
+</h1>
 <!-- Get pinned posts -->
 
 {% assign offset = paginator.page | minus: 1 | times: paginator.per_page %}
