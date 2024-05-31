@@ -2,7 +2,7 @@
 layout: postplants
 title: "Calathea White Fusion | #8"
 description: $23
-date: 2024-05-28 13:00:00 -0700
+date: 2024-05-30 13:00:00 -0700
 categories: [calathea, white fusion]
 tags: [in stock, 4" pot]
 pin: true
