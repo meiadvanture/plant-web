@@ -3,14 +3,14 @@ layout: postplants
 title: "Syngonium"
 description: $13
 date: 2024-05-28 13:00:00 -0700
-categories: [Syngonium, Glo Go]
+categories: [syngonium, glo go]
 tags: [in stock, 4" pot]
 pin: true
 
-# image: # thumbnail
-#   path: /images/syngonium/
-#   alt:
-#   lqip:
+image: # thumbnail
+  path: /images/syngonium/PXL_20240531_181831240.jpg
+  alt:
+  lqip:
 
-# photos: /images/syngonium
+photos: /images/syngonium
 ---
