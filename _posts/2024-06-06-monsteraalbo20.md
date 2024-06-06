@@ -7,7 +7,7 @@ categories: [monstera, albo]
 tags: [coming soon, 4" pot]
 pin: false
 
-image: # thumbnail
-  path: /images/monsteraalbo20/
-photos: /images/monsteraalbo20
+# image: # thumbnail
+#   path: /images/monsteraalbo20/
+# photos: /images/monsteraalbo20
 ---
