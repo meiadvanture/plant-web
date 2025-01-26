@@ -13,3 +13,6 @@ gem "jemoji"
 gem "jekyll-include-cache"
 #  gem 'jekyll_picture_tag', '~> 2.0'
 
+gem "csv"
+
+gem 'tzinfo-data'
